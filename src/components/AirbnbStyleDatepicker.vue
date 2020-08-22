@@ -254,8 +254,8 @@ export default {
   data() {
     return {
       wrapperId: 'airbnb-style-datepicker-wrapper-' + randomString(5),
-      dateFormat: 'YYYY-MM-DD',
-      dateLabelFormat: 'dddd, MMMM D, YYYY',
+      dateFormat: 'yyyy-LL-dd',
+      dateLabelFormat: 'iiii, LLLL d, yyyy',
       showDatepicker: false,
       showKeyboardShortcutsMenu: false,
       showMonths: 2,
